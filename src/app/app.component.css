@@ -1,0 +1,14 @@
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+
+p{
+    font-size: 20px ;
+    text-align: center;
+}
+
+button{
+    border-radius: 20px;
+    cursor: pointer;
+}
