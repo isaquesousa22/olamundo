@@ -1,8 +1,69 @@
-<h1>ola, {{nome}} </h1>
-<p>vc clicou {{contador}} vezes</p>
+<app-header>
+  <app-navbar></app-navbar>
+</app-header>
 
-<button (click) = "aumentar()">
-  +
-</button>
 
-<button (click)="diminuir" >-</button>
+<main>
+  
+
+  <h2>promoções!</h2>
+
+<section class="banners">
+    <div class="banner">
+      <img src="banner.jpg" alt="Banner 1">
+    </div>
+</section>
+ 
+<section class="produtos">
+    <div class="produto">
+    <div class="img">
+      <img src="perfume1.webp" alt="Produto 1">
+    </div>
+    <h3>Perfume</h3>
+    <p>R$ 99,99</p>
+    <button>Comprar</button>
+    <button>carrinho🛒</button>
+
+  </div>
+
+  <div class="produto">
+    <div class="img">
+      <img src="perfume1.webp" alt="Produto 1">
+    </div>
+    <h3>Perfume</h3>
+    <p>R$ 99,99</p>
+    <button>Comprar</button>
+    <button>carrinho🛒</button>
+
+  </div>
+
+  <div class="produto">
+    <div class="img">
+      <img src="#" alt="Produto 1">
+    </div>
+    <h3>Perfume</h3>
+    <p>R$ 99,99</p>
+    <button>Comprar</button>
+    <button>carrinho🛒</button>
+
+
+  </div>
+
+  <div class="produto">
+    <div class="img">
+      <img src="#" alt="Produto 1">
+    </div>
+    <h3>Perfume</h3>
+    <p>R$ 99,99</p>
+
+    <button>Comprar💵</button>
+    <button>carrinho🛒</button>
+
+  </div>
+
+  
+</section>
+
+</main>
+
+<app-footer></app-footer>
