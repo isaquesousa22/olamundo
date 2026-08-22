@@ -12,32 +12,33 @@ p{
     text-align: center;
 }
 
-.banner{
-    width: 1000px;
-    height: 400px;
-    background-color: #a71d1d;
-    border-radius: 20px;
-    margin-top: 2cm;
-    
-}
-
-.banners{
+.banners {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.banner img{
-    width: 100%;
-    height: 100%;
+#banner {
+    width: 1000px;
+    height: 400px;
+    margin-top: 2cm;
     border-radius: 20px;
+    overflow: hidden;
 }
 
+#banner .carousel-item {
+    height: 400px;
+}
 
-.banner:hover{
-    transform: scale(1.05);
+#banner img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#banner:hover {
+    transform: scale(1.02);
     transition: 0.5s;
-    
 }
 
 .produtos{
@@ -86,7 +87,7 @@ p{
     margin-top: 10px;
 }
 
-button{
+.btn{
     width: 100px;
     height: 40px;
     background-color: #a71d1d;
@@ -97,7 +98,7 @@ button{
     font-size: 15px;
 }
 
-button:hover{
+.btn:hover{
     transform: scale(1.05);
     transition: 0.5s;
 }
